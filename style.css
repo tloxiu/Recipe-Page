@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    flex-direction: column;
+}
+
+.main-container{
+    width: 800px;
+    padding: 4.2vh;
+    margin-top: 7.2vh;
+    margin-bottom: 7.2vh;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.header-container p {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+
+h1, h3{
+    font-family: "Young serif";
+}
+
+h1{
+    color: hsl(24, 5%, 18%);
+    margin-top: 22px;
+    margin-bottom: 15px;
+    font-size: 5vh;
+    font-weight: 500;
+}
+
+h3, span{
+    color: hsl(14, 45%, 36%);
+}
+
+p{
+    font-family: "outfit";
+    font-size: 2vh;
+    color: hsl(30, 10%, 34%);
+}
+
+.bigger{
+    font-size: 3.5vh;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;;
+}
+
+.preparation-time
+{
+    background-color: hsl(330, 100%, 98%);
+    padding: 45px;
+    position: relative;
+    max-height: 195px;
+    border-radius: 10px;
+}
+
+.preparation-time h3{
+    color: hsl(332, 51%, 32%);
+    font-family: "outfit";
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 23px;
+    margin-left: 25px;
+    font-size: 2.3vh;
+}
+
+.preparation-time p{
+    margin-top: 1.9vh;
+    font-weight: 500;
+}
+
+.preparation-time li{
+    color: hsl(332, 51%, 32%);
+    font-size: 13px;
+    padding-left: 15px;
+}
+
+
+.ingredients p{
+    margin-top: 1.9vh;
+    font-weight: 500;
+}
+
+.ingredients li{
+    color: hsl(14, 45%, 36%);
+    font-size: 13px;
+    padding-left: 15px;
+}
+
+.ingredients ul{
+    margin-left: 18px;
+}
+
+.section{
+    margin-top: 30px;
+    opacity: 40%;
+}
+
+.instructions p{
+    font-weight: 500;
+    margin-top: 1.9vh;
+}
+
+.instructions li{
+    list-style-type: decimal;
+    color: hsl(14, 45%, 36%);
+    font-size: 17px;
+    padding-left: 15px;
+    font-weight: 800;
+    font-family: "outfit";
+}
+
+.instructions ul{
+    margin-left: 18px;
+}
+
+.paragraph{
+    margin-bottom: 2.5vh;
+    font-weight: 500;
+}
+
+strong{
+    font-family: "outfit";
+    color: hsl(14, 45%, 36%);;
+}
+
+hr{
+    opacity: 40%;
+}
+
+.nutrition div{
+    display:flex;
+    place-items: center;
+    gap:6rem;
+    margin: 14px;
+    margin-left: 4vh;
+}
+.nutrition div p{
+    width:30%;
+    font-weight: 500;
+}
+.nutrition div strong{
+    width:50%;
+    font-weight: 800;
+}
+
+
+
+
+

@@ -1,0 +1,47 @@
+@media screen and (max-width:850px){
+    .main-container{
+        width: 600px;
+    }
+}
+
+
+@media screen and (max-width:640px){
+    .main-container{
+        width: 100%;
+        padding: 0px;
+        margin: 0;
+        border-radius: 0;
+    }
+    img{
+        border-radius: 0;
+    }
+    h1, h3, p{
+        margin: 3vh;
+    }
+    .preparation-time{
+        margin: 2vh;
+        max-height: 210px;
+    }
+    .ingredients li{
+        margin-left: 5vh;
+    }
+    .instructions li{
+        margin-left: 5vh;
+    }
+    .nutrition div strong{
+        margin-left: 5vh;
+    }
+}
+
+@media screen and (max-width:445px){
+    .preparation-time{
+        max-height: 220px;
+    }
+}
+
+
+@media screen and (max-width:375px){
+    .preparation-time{
+        max-height: 240px;
+    }
+}
